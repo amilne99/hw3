@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   let dropoffState =ride.dropoffLocation.state
   let dropoffZip =ride.dropoffLocation.zip
 
-  //Create variable for start of expressed based on customer conditional
+  //Create variable for ride status based on customer conditional
   let status
   if (ride.purpleRequested == true) {
     status = `Noober Purple`
